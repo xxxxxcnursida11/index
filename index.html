@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .letter {
+            background-color: lightcoral;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .heart {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: heartbeat 5s infinite;
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        button {
+            margin-top: 100px;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="letter">
+    <div class="heart">
+      ❤️
+    </div>
+    <p>My Dearest Love,</p>
+    <p>I wanted to take a moment to express my deepest feelings for you. You are the most incredible person I've ever met, and I feel so grateful to have you in my life.</p>
+    <p>Every day with you is a gift, and I cherish every moment we spend together. You make me smile, laugh, and feel loved in a way I never thought possible.</p>
+    <p>Thank you for being you, and for loving me just the way I am. I love you more than words can say, and I can't wait to see what the future holds for us.</p>
+    <p>Forever Yours,</p>
+    <p>Your Loving Partner</p>
+ 
+</div>
+<footer> <a href="indexs.html"><button class="navBtn">Click here</button></a></footer>
+
+
+</body>
+</html>
